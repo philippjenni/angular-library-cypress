@@ -1,0 +1,1115 @@
+{
+  "C:\\Daten\\jNetwork\\ch.jnetwork.angularcoverage\\src\\polyfills.ts": {
+    "path": "C:\\Daten\\jNetwork\\ch.jnetwork.angularcoverage\\src\\polyfills.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {},
+    "inputSourceMap": {
+      "version": 3,
+      "file": "polyfills.js",
+      "sourceRoot": "",
+      "sources": [
+        "C:\\Daten\\jNetwork\\ch.jnetwork.angularcoverage\\src\\polyfills.ts"
+      ],
+      "names": [],
+      "mappings": "AAAA;;;;;;;;;;;;;;GAcG;AAEH;;GAEG;AAEH;;;;;;;;;;;;;;;;;;;;;;GAsBG;AAEH;;GAEG;AACH,OAAO,SAAS,CAAC,CAAE,6BAA6B;AAGhD;;GAEG",
+      "sourcesContent": [
+        "/**\n * This file includes polyfills needed by Angular and is loaded before the app.\n * You can add your own extra polyfills to this file.\n *\n * This file is divided into 2 sections:\n *   1. Browser polyfills. These are applied before loading ZoneJS and are sorted by browsers.\n *   2. Application imports. Files imported after ZoneJS that should be loaded before your main\n *      file.\n *\n * The current setup is for so-called \"evergreen\" browsers; the last versions of browsers that\n * automatically update themselves. This includes recent versions of Safari, Chrome (including\n * Opera), Edge on the desktop, and iOS and Chrome on mobile.\n *\n * Learn more in https://angular.io/guide/browser-support\n */\n\n/***************************************************************************************************\n * BROWSER POLYFILLS\n */\n\n/**\n * By default, zone.js will patch all possible macroTask and DomEvents\n * user can disable parts of macroTask/DomEvents patch by setting following flags\n * because those flags need to be set before `zone.js` being loaded, and webpack\n * will put import in the top of bundle, so user need to create a separate file\n * in this directory (for example: zone-flags.ts), and put the following flags\n * into that file, and then add the following code before importing zone.js.\n * import './zone-flags';\n *\n * The flags allowed in zone-flags.ts are listed here.\n *\n * The following flags will work for all browsers.\n *\n * (window as any).__Zone_disable_requestAnimationFrame = true; // disable patch requestAnimationFrame\n * (window as any).__Zone_disable_on_property = true; // disable patch onProperty such as onclick\n * (window as any).__zone_symbol__UNPATCHED_EVENTS = ['scroll', 'mousemove']; // disable patch specified eventNames\n *\n *  in IE/Edge developer tools, the addEventListener will also be wrapped by zone.js\n *  with the following flag, it will bypass `zone.js` patch for IE/Edge\n *\n *  (window as any).__Zone_enable_cross_context_check = true;\n *\n */\n\n/***************************************************************************************************\n * Zone JS is required by default for Angular itself.\n */\nimport 'zone.js';  // Included with Angular CLI.\n\n\n/***************************************************************************************************\n * APPLICATION IMPORTS\n */\n"
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "e38bbb0267bf187f871b5b381cc9ea1ec0733e66"
+  },
+  "C:\\Daten\\jNetwork\\ch.jnetwork.angularcoverage\\src\\app\\mycomponent\\my.component.ts": {
+    "path": "C:\\Daten\\jNetwork\\ch.jnetwork.angularcoverage\\src\\app\\mycomponent\\my.component.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 8
+        },
+        "end": {
+          "line": 4,
+          "column": 33
+        }
+      },
+      "1": {
+        "start": {
+          "line": 7,
+          "column": 0
+        },
+        "end": {
+          "line": 7,
+          "column": 88
+        }
+      },
+      "2": {
+        "start": {
+          "line": 7,
+          "column": 53
+        },
+        "end": {
+          "line": 7,
+          "column": 85
+        }
+      },
+      "3": {
+        "start": {
+          "line": 8,
+          "column": 0
+        },
+        "end": {
+          "line": 18,
+          "column": 29
+        }
+      },
+      "4": {
+        "start": {
+          "line": 8,
+          "column": 214
+        },
+        "end": {
+          "line": 18,
+          "column": 5
+        }
+      },
+      "5": {
+        "start": {
+          "line": 9,
+          "column": 8
+        },
+        "end": {
+          "line": 9,
+          "column": 36
+        }
+      },
+      "6": {
+        "start": {
+          "line": 10,
+          "column": 8
+        },
+        "end": {
+          "line": 10,
+          "column": 45
+        }
+      },
+      "7": {
+        "start": {
+          "line": 11,
+          "column": 8
+        },
+        "end": {
+          "line": 11,
+          "column": 26
+        }
+      },
+      "8": {
+        "start": {
+          "line": 12,
+          "column": 8
+        },
+        "end": {
+          "line": 12,
+          "column": 36
+        }
+      },
+      "9": {
+        "start": {
+          "line": 13,
+          "column": 8
+        },
+        "end": {
+          "line": 13,
+          "column": 42
+        }
+      },
+      "10": {
+        "start": {
+          "line": 14,
+          "column": 8
+        },
+        "end": {
+          "line": 14,
+          "column": 116
+        }
+      },
+      "11": {
+        "start": {
+          "line": 14,
+          "column": 89
+        },
+        "end": {
+          "line": 14,
+          "column": 112
+        }
+      },
+      "12": {
+        "start": {
+          "line": 15,
+          "column": 8
+        },
+        "end": {
+          "line": 15,
+          "column": 35
+        }
+      },
+      "13": {
+        "start": {
+          "line": 16,
+          "column": 8
+        },
+        "end": {
+          "line": 16,
+          "column": 26
+        }
+      },
+      "14": {
+        "start": {
+          "line": 17,
+          "column": 8
+        },
+        "end": {
+          "line": 17,
+          "column": 26
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 3,
+            "column": 4
+          },
+          "end": {
+            "line": 3,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 16
+          },
+          "end": {
+            "line": 5,
+            "column": 5
+          }
+        },
+        "line": 3
+      },
+      "1": {
+        "name": "MyComponent_Factory",
+        "decl": {
+          "start": {
+            "line": 7,
+            "column": 28
+          },
+          "end": {
+            "line": 7,
+            "column": 47
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 51
+          },
+          "end": {
+            "line": 7,
+            "column": 87
+          }
+        },
+        "line": 7
+      },
+      "2": {
+        "name": "MyComponent_Template",
+        "decl": {
+          "start": {
+            "line": 8,
+            "column": 182
+          },
+          "end": {
+            "line": 8,
+            "column": 202
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 212
+          },
+          "end": {
+            "line": 18,
+            "column": 7
+          }
+        },
+        "line": 8
+      },
+      "3": {
+        "name": "MyComponent_Template_button_click_3_listener",
+        "decl": {
+          "start": {
+            "line": 14,
+            "column": 40
+          },
+          "end": {
+            "line": 14,
+            "column": 84
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 87
+          },
+          "end": {
+            "line": 14,
+            "column": 114
+          }
+        },
+        "line": 14
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 65
+          },
+          "end": {
+            "line": 7,
+            "column": 81
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 7,
+              "column": 65
+            },
+            "end": {
+              "line": 7,
+              "column": 66
+            }
+          },
+          {
+            "start": {
+              "line": 7,
+              "column": 70
+            },
+            "end": {
+              "line": 7,
+              "column": 81
+            }
+          }
+        ],
+        "line": 7
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 214
+          },
+          "end": {
+            "line": 18,
+            "column": 5
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 8,
+              "column": 214
+            },
+            "end": {
+              "line": 18,
+              "column": 5
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 8
+      }
+    },
+    "s": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 1,
+      "10": 1,
+      "11": 1,
+      "12": 1,
+      "13": 1,
+      "14": 1
+    },
+    "f": {
+      "0": 1,
+      "1": 1,
+      "2": 7,
+      "3": 1
+    },
+    "b": {
+      "0": [
+        1,
+        1
+      ],
+      "1": [
+        1,
+        6
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "file": "my.component.js",
+      "sourceRoot": "",
+      "sources": [
+        "C:\\Daten\\jNetwork\\ch.jnetwork.angularcoverage\\src\\app\\mycomponent\\my.component.ts",
+        "C:\\Daten\\jNetwork\\ch.jnetwork.angularcoverage\\src\\app\\mycomponent\\my.component.html"
+      ],
+      "names": [],
+      "mappings": ";AAMA,MAAM,OAAO,WAAW;IACf,SAAS;QACd,KAAK,CAAC,iBAAiB,CAAC,CAAC;IAC3B,CAAC;;sEAHU,WAAW;8DAAX,WAAW;QCNxB,2BAAK;QACD,oCACJ;QAAA,iBAAM;QACN,2BAAK;QACD,iCAA8C;QAAtB,wFAAS,eAAW,IAAC;QAAC,0BAAU;QAAA,iBAAS;QACrE,iBAAM",
+      "sourcesContent": [
+        "import { Component } from '@angular/core';\r\n\r\n@Component({\r\n  selector: 'app-my',\r\n  templateUrl: './my.component.html',\r\n})\r\nexport class MyComponent {\r\n  public showalert(): void {\r\n    alert('Example Message');\r\n  }\r\n}\r\n",
+        "<div>\r\n    Example Component\r\n</div>\r\n<div>\r\n    <button id=\"testbutton\" (click)=\"showalert()\">Show Alert</button>\r\n</div>"
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "fd2983e126076a943179677156391afe00cbbb5e"
+  },
+  "C:\\Daten\\jNetwork\\ch.jnetwork.angularcoverage\\src\\app\\app.component.ts": {
+    "path": "C:\\Daten\\jNetwork\\ch.jnetwork.angularcoverage\\src\\app\\app.component.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 5,
+          "column": 8
+        },
+        "end": {
+          "line": 5,
+          "column": 39
+        }
+      },
+      "1": {
+        "start": {
+          "line": 8,
+          "column": 0
+        },
+        "end": {
+          "line": 8,
+          "column": 91
+        }
+      },
+      "2": {
+        "start": {
+          "line": 8,
+          "column": 55
+        },
+        "end": {
+          "line": 8,
+          "column": 88
+        }
+      },
+      "3": {
+        "start": {
+          "line": 9,
+          "column": 0
+        },
+        "end": {
+          "line": 16,
+          "column": 218
+        }
+      },
+      "4": {
+        "start": {
+          "line": 9,
+          "column": 175
+        },
+        "end": {
+          "line": 16,
+          "column": 5
+        }
+      },
+      "5": {
+        "start": {
+          "line": 10,
+          "column": 8
+        },
+        "end": {
+          "line": 10,
+          "column": 36
+        }
+      },
+      "6": {
+        "start": {
+          "line": 11,
+          "column": 8
+        },
+        "end": {
+          "line": 11,
+          "column": 41
+        }
+      },
+      "7": {
+        "start": {
+          "line": 12,
+          "column": 8
+        },
+        "end": {
+          "line": 12,
+          "column": 26
+        }
+      },
+      "8": {
+        "start": {
+          "line": 13,
+          "column": 8
+        },
+        "end": {
+          "line": 13,
+          "column": 36
+        }
+      },
+      "9": {
+        "start": {
+          "line": 14,
+          "column": 8
+        },
+        "end": {
+          "line": 14,
+          "column": 34
+        }
+      },
+      "10": {
+        "start": {
+          "line": 15,
+          "column": 8
+        },
+        "end": {
+          "line": 15,
+          "column": 26
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 4
+          },
+          "end": {
+            "line": 4,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 18
+          },
+          "end": {
+            "line": 6,
+            "column": 5
+          }
+        },
+        "line": 4
+      },
+      "1": {
+        "name": "AppComponent_Factory",
+        "decl": {
+          "start": {
+            "line": 8,
+            "column": 29
+          },
+          "end": {
+            "line": 8,
+            "column": 49
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 53
+          },
+          "end": {
+            "line": 8,
+            "column": 90
+          }
+        },
+        "line": 8
+      },
+      "2": {
+        "name": "AppComponent_Template",
+        "decl": {
+          "start": {
+            "line": 9,
+            "column": 142
+          },
+          "end": {
+            "line": 9,
+            "column": 163
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 173
+          },
+          "end": {
+            "line": 16,
+            "column": 7
+          }
+        },
+        "line": 9
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 67
+          },
+          "end": {
+            "line": 8,
+            "column": 84
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 8,
+              "column": 67
+            },
+            "end": {
+              "line": 8,
+              "column": 68
+            }
+          },
+          {
+            "start": {
+              "line": 8,
+              "column": 72
+            },
+            "end": {
+              "line": 8,
+              "column": 84
+            }
+          }
+        ],
+        "line": 8
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 175
+          },
+          "end": {
+            "line": 16,
+            "column": 5
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 9,
+              "column": 175
+            },
+            "end": {
+              "line": 16,
+              "column": 5
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 9
+      }
+    },
+    "s": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 1,
+      "10": 1
+    },
+    "f": {
+      "0": 1,
+      "1": 1,
+      "2": 7
+    },
+    "b": {
+      "0": [
+        1,
+        1
+      ],
+      "1": [
+        1,
+        6
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "file": "app.component.js",
+      "sourceRoot": "",
+      "sources": [
+        "C:\\Daten\\jNetwork\\ch.jnetwork.angularcoverage\\src\\app\\app.component.ts",
+        "C:\\Daten\\jNetwork\\ch.jnetwork.angularcoverage\\src\\app\\app.component.html"
+      ],
+      "names": [],
+      "mappings": ";;AAOA,MAAM,OAAO,YAAY;IALzB;QAME,UAAK,GAAG,iBAAiB,CAAC;KAC3B;;wEAFY,YAAY;+DAAZ,YAAY;QCPzB,2BAAK;QAAA,gCAAgB;QAAA,iBAAM;QAC3B,2BAAK;QACH,yBAAiB;QACnB,iBAAM",
+      "sourcesContent": [
+        "import { Component } from '@angular/core';\n\n@Component({\n  selector: 'app-root',\n  templateUrl: './app.component.html',\n  styleUrls: ['./app.component.scss']\n})\nexport class AppComponent {\n  title = 'AngularCoverage';\n}\n",
+        "<div>Coverage Example</div>\n<div>\n  <app-my></app-my>\n</div>\n"
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "047df8a642423db5619a752988ac2dabaa24f2a7"
+  },
+  "C:\\Daten\\jNetwork\\ch.jnetwork.angularcoverage\\src\\app\\app.module.ts": {
+    "path": "C:\\Daten\\jNetwork\\ch.jnetwork.angularcoverage\\src\\app\\app.module.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 7,
+          "column": 0
+        },
+        "end": {
+          "line": 7,
+          "column": 82
+        }
+      },
+      "1": {
+        "start": {
+          "line": 7,
+          "column": 49
+        },
+        "end": {
+          "line": 7,
+          "column": 79
+        }
+      },
+      "2": {
+        "start": {
+          "line": 8,
+          "column": 0
+        },
+        "end": {
+          "line": 8,
+          "column": 99
+        }
+      },
+      "3": {
+        "start": {
+          "line": 9,
+          "column": 0
+        },
+        "end": {
+          "line": 11,
+          "column": 14
+        }
+      },
+      "4": {
+        "start": {
+          "line": 12,
+          "column": 0
+        },
+        "end": {
+          "line": 13,
+          "column": 56
+        }
+      },
+      "5": {
+        "start": {
+          "line": 12,
+          "column": 15
+        },
+        "end": {
+          "line": 13,
+          "column": 50
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "AppModule_Factory",
+        "decl": {
+          "start": {
+            "line": 7,
+            "column": 26
+          },
+          "end": {
+            "line": 7,
+            "column": 43
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 47
+          },
+          "end": {
+            "line": 7,
+            "column": 81
+          }
+        },
+        "line": 7
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 12,
+            "column": 1
+          },
+          "end": {
+            "line": 12,
+            "column": 2
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 13
+          },
+          "end": {
+            "line": 13,
+            "column": 52
+          }
+        },
+        "line": 12
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 61
+          },
+          "end": {
+            "line": 7,
+            "column": 75
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 7,
+              "column": 61
+            },
+            "end": {
+              "line": 7,
+              "column": 62
+            }
+          },
+          {
+            "start": {
+              "line": 7,
+              "column": 66
+            },
+            "end": {
+              "line": 7,
+              "column": 75
+            }
+          }
+        ],
+        "line": 7
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 15
+          },
+          "end": {
+            "line": 13,
+            "column": 49
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 12,
+              "column": 16
+            },
+            "end": {
+              "line": 12,
+              "column": 48
+            }
+          },
+          {
+            "start": {
+              "line": 12,
+              "column": 52
+            },
+            "end": {
+              "line": 12,
+              "column": 61
+            }
+          },
+          {
+            "start": {
+              "line": 12,
+              "column": 66
+            },
+            "end": {
+              "line": 13,
+              "column": 49
+            }
+          }
+        ],
+        "line": 12
+      }
+    },
+    "s": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1
+    },
+    "f": {
+      "0": 1,
+      "1": 1
+    },
+    "b": {
+      "0": [
+        1,
+        1
+      ],
+      "1": [
+        1,
+        0,
+        1
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "file": "app.module.js",
+      "sourceRoot": "",
+      "sources": [
+        "C:\\Daten\\jNetwork\\ch.jnetwork.angularcoverage\\src\\app\\app.module.ts"
+      ],
+      "names": [],
+      "mappings": "AACA,OAAO,EAAE,aAAa,EAAE,MAAM,2BAA2B,CAAC;AAE1D,OAAO,EAAE,YAAY,EAAE,MAAM,iBAAiB,CAAC;AAC/C,OAAO,EAAE,WAAW,EAAE,MAAM,4BAA4B,CAAC;;AAazD,MAAM,OAAO,SAAS;;kEAAT,SAAS;2DAAT,SAAS,cAFR,YAAY;gEADb,EAAE,YAHJ;YACP,aAAa;SACd;wFAIU,SAAS,mBATlB,YAAY;QACZ,WAAW,aAGX,aAAa",
+      "sourcesContent": [
+        "import { NgModule } from '@angular/core';\nimport { BrowserModule } from '@angular/platform-browser';\n\nimport { AppComponent } from './app.component';\nimport { MyComponent } from './mycomponent/my.component';\n\n@NgModule({\n  declarations: [\n    AppComponent,\n    MyComponent\n  ],\n  imports: [\n    BrowserModule\n  ],\n  providers: [],\n  bootstrap: [AppComponent]\n})\nexport class AppModule { }\n"
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "7d82d15aaaff2b2e59a1141ce1112911ad90b795"
+  },
+  "C:\\Daten\\jNetwork\\ch.jnetwork.angularcoverage\\src\\environments\\environment.ts": {
+    "path": "C:\\Daten\\jNetwork\\ch.jnetwork.angularcoverage\\src\\environments\\environment.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 27
+        },
+        "end": {
+          "line": 6,
+          "column": 1
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 1
+    },
+    "f": {},
+    "b": {},
+    "inputSourceMap": {
+      "version": 3,
+      "file": "environment.js",
+      "sourceRoot": "",
+      "sources": [
+        "C:\\Daten\\jNetwork\\ch.jnetwork.angularcoverage\\src\\environments\\environment.ts"
+      ],
+      "names": [],
+      "mappings": "AAAA,gFAAgF;AAChF,mEAAmE;AACnE,gEAAgE;AAEhE,MAAM,CAAC,MAAM,WAAW,GAAG;IACzB,UAAU,EAAE,KAAK;CAClB,CAAC;AAEF;;;;;;GAMG;AACH,sEAAsE",
+      "sourcesContent": [
+        "// This file can be replaced during build by using the `fileReplacements` array.\n// `ng build` replaces `environment.ts` with `environment.prod.ts`.\n// The list of file replacements can be found in `angular.json`.\n\nexport const environment = {\n  production: false\n};\n\n/*\n * For easier debugging in development mode, you can import the following file\n * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.\n *\n * This import should be commented out in production mode because it will have a negative impact\n * on performance if an error is thrown.\n */\n// import 'zone.js/plugins/zone-error';  // Included with Angular CLI.\n"
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "5c54b7e1f763eabb7d8f5707d22faeded24fdcd8"
+  },
+  "C:\\Daten\\jNetwork\\ch.jnetwork.angularcoverage\\src\\main.ts": {
+    "path": "C:\\Daten\\jNetwork\\ch.jnetwork.angularcoverage\\src\\main.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 5,
+          "column": 0
+        },
+        "end": {
+          "line": 7,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 6,
+          "column": 4
+        },
+        "end": {
+          "line": 6,
+          "column": 21
+        }
+      },
+      "2": {
+        "start": {
+          "line": 8,
+          "column": 0
+        },
+        "end": {
+          "line": 9,
+          "column": 38
+        }
+      },
+      "3": {
+        "start": {
+          "line": 9,
+          "column": 18
+        },
+        "end": {
+          "line": 9,
+          "column": 36
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 9,
+            "column": 11
+          },
+          "end": {
+            "line": 9,
+            "column": 12
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 18
+          },
+          "end": {
+            "line": 9,
+            "column": 36
+          }
+        },
+        "line": 9
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 0
+          },
+          "end": {
+            "line": 7,
+            "column": 1
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 5,
+              "column": 0
+            },
+            "end": {
+              "line": 7,
+              "column": 1
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 5
+      }
+    },
+    "s": {
+      "0": 1,
+      "1": 0,
+      "2": 1,
+      "3": 0
+    },
+    "f": {
+      "0": 0
+    },
+    "b": {
+      "0": [
+        0,
+        1
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "file": "main.js",
+      "sourceRoot": "",
+      "sources": [
+        "C:\\Daten\\jNetwork\\ch.jnetwork.angularcoverage\\src\\main.ts"
+      ],
+      "names": [],
+      "mappings": ";AAAA,OAAO,EAAE,cAAc,EAAE,MAAM,eAAe,CAAC;AAG/C,OAAO,EAAE,SAAS,EAAE,MAAM,kBAAkB,CAAC;AAC7C,OAAO,EAAE,WAAW,EAAE,MAAM,4BAA4B,CAAC;AAEzD,IAAI,WAAW,CAAC,UAAU,EAAE;IAC1B,cAAc,EAAE,CAAC;CAClB;AAED,qCAAwB,CAAC,eAAe,CAAC,SAAS,CAAC;KAChD,KAAK,CAAC,GAAG,CAAC,EAAE,CAAC,OAAO,CAAC,KAAK,CAAC,GAAG,CAAC,CAAC,CAAC",
+      "sourcesContent": [
+        "import { enableProdMode } from '@angular/core';\nimport { platformBrowserDynamic } from '@angular/platform-browser-dynamic';\n\nimport { AppModule } from './app/app.module';\nimport { environment } from './environments/environment';\n\nif (environment.production) {\n  enableProdMode();\n}\n\nplatformBrowserDynamic().bootstrapModule(AppModule)\n  .catch(err => console.error(err));\n"
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "7e25772af4a706d9d031c6f15f890bf4fe68221d"
+  },
+  "C:/Daten/jNetwork/ch.jnetwork.angularcoverage/src/environments/environment.prod.ts": {
+    "path": "C:/Daten/jNetwork/ch.jnetwork.angularcoverage/src/environments/environment.prod.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  }
+}
