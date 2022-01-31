@@ -134,6 +134,14 @@
             "tsConfig": "projects/component-lib/tsconfig.spec.json",
             "karmaConfig": "projects/component-lib/karma.conf.js"
           }
+        },
+        "ct": {
+          "builder": "@nrwl/cypress:cypress",
+          "options": {
+            "cypressConfig": "projects\\component-lib\\cypress.json",
+            "tsConfig": "projects\\component-lib\\tsconfig.cypress.json",
+            "testingType": "component"
+          }
         }
       }
     }
