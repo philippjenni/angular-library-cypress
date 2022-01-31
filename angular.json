@@ -105,6 +105,37 @@
           }
         }
       }
+    },
+    "ComponentLib": {
+      "projectType": "library",
+      "root": "projects/component-lib",
+      "sourceRoot": "projects/component-lib/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/component-lib/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/component-lib/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/component-lib/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/component-lib/src/test.ts",
+            "tsConfig": "projects/component-lib/tsconfig.spec.json",
+            "karmaConfig": "projects/component-lib/karma.conf.js"
+          }
+        }
+      }
     }
   },
   "defaultProject": "AngularCoverage"
