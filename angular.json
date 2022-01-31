@@ -75,7 +75,8 @@
               "browserTarget": "AngularCoverage:build:production"
             },
             "development": {
-              "browserTarget": "AngularCoverage:build:development"
+              "browserTarget": "AngularCoverage:build:development",
+              "extraWebpackConfig": "./cypress/coverage.webpack.js"
             }
           },
           "defaultConfiguration": "development"
