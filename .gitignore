@@ -43,4 +43,5 @@ Thumbs.db
 
 # Custom Ignores
 .nyc_output/**/*
-
+projects/component-lib/coverage/**/*
+projects/component-lib/.nyc_output/**/*
