@@ -8,6 +8,8 @@
     "watch": "ng build --watch --configuration development",
     "build-lib": "ng build --project ComponentLib",
     "cypress-lib": "npx cypress open-ct --project projects/component-lib",
+    "cypress-projectct": "npx cypress open-ct",
+    "cypress-project": "npx cypress open",
     "test": "ng test"
   },
   "private": true,
