@@ -1,4 +1,3 @@
-import { createOutputSpy } from 'cypress/angular';
 import { MyComponent } from './my.component';
 
 describe('NgButtonComponent', () => {
