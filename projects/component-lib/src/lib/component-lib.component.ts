@@ -1,13 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'lib-componentlib',
   templateUrl: 'component-lib.component.html',
 })
-export class ComponentLibComponent implements OnInit {
+export class ComponentLibComponent {
   constructor() {}
 
-  ngOnInit(): void {
-    console.log('Init Component');
+  public showalert(): void {
+    alert('Example Message');
   }
 }

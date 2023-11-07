@@ -45,3 +45,4 @@ Thumbs.db
 .nyc_output/**/*
 projects/component-lib/coverage/**/*
 projects/component-lib/.nyc_output/**/*
+projects/component-lib/.angular
