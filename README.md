@@ -20,3 +20,7 @@ Start Cypress
 Start Cypress
 
 `npm run cypress-lib`
+
+# Known Issues
+
+* Coverage does not work if the name cypress is present in the path. Check out the project in the `angular-library-cy` folder.
