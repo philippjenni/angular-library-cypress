@@ -3,7 +3,12 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
-    "paths": {},
+    "paths": {
+      "lib-component": [
+        "dist/lib-component/lib-component",
+        "dist/lib-component"
+      ]
+    },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
