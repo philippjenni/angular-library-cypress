@@ -2,13 +2,8 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "paths": {
-      "ComponentLib": [
-        "dist/component-lib/component-lib",
-        "dist/component-lib"
-      ]
-    },
     "baseUrl": "./",
+    "paths": {},
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
