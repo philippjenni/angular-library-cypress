@@ -42,5 +42,15 @@ testem.log
 Thumbs.db
 
 # Custom Excludes
-coverage-component/**/*.*
+
+# Coverage Data
+coverage-*/**/*.*
 .nyc_output/**/*.*
+projects/*/.nyc_output/**/*.*
+
+# Angular Build Temp
+projects/**/.angular/**/*.*
+
+# Cypress Screenshots
+cypress/screenshots/**/*.*
+projects/*/cypress/screenshots/**/*.*

@@ -179,6 +179,53 @@
             "tsConfig": "projects/lib-component/tsconfig.spec.json",
             "karmaConfig": "projects/lib-component/karma.conf.js"
           }
+        },
+        "cypress-run": {
+          "builder": "@cypress/schematic:cypress",
+          "options": {
+            "devServerTarget": "lib-component:serve",
+            "configFile": "projects/lib-component/cypress.config.js"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "lib-component:serve:production"
+            }
+          }
+        },
+        "cypress-open": {
+          "builder": "@cypress/schematic:cypress",
+          "options": {
+            "watch": true,
+            "headless": false,
+            "configFile": "projects/lib-component/cypress.config.js"
+          }
+        },
+        "ct": {
+          "builder": "@cypress/schematic:cypress",
+          "options": {
+            "devServerTarget": "lib-component:serve",
+            "watch": true,
+            "headless": false,
+            "testingType": "component"
+          },
+          "configurations": {
+            "development": {
+              "devServerTarget": "lib-component:serve:development"
+            }
+          }
+        },
+        "e2e": {
+          "builder": "@cypress/schematic:cypress",
+          "options": {
+            "devServerTarget": "lib-component:serve",
+            "watch": true,
+            "headless": false
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "lib-component:serve:production"
+            }
+          }
         }
       }
     }

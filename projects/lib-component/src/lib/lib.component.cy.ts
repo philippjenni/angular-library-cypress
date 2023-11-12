@@ -1,9 +1,9 @@
 import { createOutputSpy } from 'cypress/angular';
-import { MyComponent } from './my.component';
+import { LibComponent } from './lib.component';
 
-describe('NgButtonComponent', () => {
+describe('NgLibComponent', () => {
   it('should click', () => {
-    cy.mount(MyComponent, {
+    cy.mount(LibComponent, {
       componentProperties: {
         buttonClicked: createOutputSpy('buttonClicked'),
       },

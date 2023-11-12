@@ -11,8 +11,8 @@
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
     "build-lib": "ng build --project lib-component",
-    "cypress-lib-run": "npx cypress run --component --project projects/component-lib --env coverage=true",
-    "cypress-lib-edit": "npx cypress open --project projects/component-lib --env coverage=true",
+    "cypress-lib-run": "npx cypress run --component --project projects/lib-component --env coverage=true",
+    "cypress-lib-edit": "npx cypress open --project projects/lib-component --env coverage=true",
     "cypress-project-run": "npx cypress run --component --env coverage=true",
     "cypress-project-edit": "npx cypress open --env coverage=true"
   },
