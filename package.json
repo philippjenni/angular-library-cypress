@@ -11,10 +11,12 @@
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
     "build-lib": "ng build --project lib-component",
-    "cypress-lib-run": "npx cypress run --component --project projects/lib-component --env coverage=true",
+    "cypress-lib-run": "npm run build-lib-base && npm run instrument-lib-base && npx cypress run --component --project projects/lib-component --env coverage=true",
     "cypress-lib-edit": "npx cypress open --project projects/lib-component --env coverage=true",
     "cypress-project-run": "npx cypress run --component --env coverage=true",
-    "cypress-project-edit": "npx cypress open --env coverage=true"
+    "cypress-project-edit": "npx cypress open --env coverage=true",
+    "build-lib-base": "ng build --project lib-base",
+    "instrument-lib-base": "npx nyc instrument ./dist/lib-base --in-place"
   },
   "private": true,
   "dependencies": {
