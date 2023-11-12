@@ -1,27 +1,28 @@
-# Test Coverage Project
+# Start Cypress
 
-Start WebServer
+## Main Project
 
-`npm run start`
+`npm run cypress-project-edit`
 
-Start Cypress
+## Library Project
 
-`npm run cypress-project`
+`npm run cypress-lib-edit`
 
+# Run Tests
 
-# Test Coverage Project Component Test
-
-Start Cypress
-
-`npm run cypress-projectct`
-
-# Test Coverage Component Lib
+## Test Coverage Project Component Test
 
 Start Cypress
 
-`npm run cypress-lib`
+`npm run cypress-project-run`
+
+## Test Coverage Component Lib
+
+Start Cypress
+
+`npm run cypress-lib-run`
 
 # Known Issues
 
 * Coverage does not work if the name cypress is present in the path. Check out the project in the `angular-library-cy` folder.
-* Error Message `ERROR in error TS2688: Cannot find type definition file for 'cypress'.` when running Library tests. But Coverage and Test works fine.
+* Error Message `ERROR in error TS2688: Cannot find type definition file for 'cypress'.` when running Library tests. But Coverage and Test works fine. Must be an confiuration issue.
