@@ -4,6 +4,10 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
+      "lib-base": [
+        "dist/lib-base/lib-base",
+        "dist/lib-base"
+      ],
       "lib-component": [
         "dist/lib-component/lib-component",
         "dist/lib-component"
