@@ -90,17 +90,28 @@ The `cypress.config.ts` in the main projects requires following extensions.
 
 Edit `cypress.config.ts` in each library project which have cypress tests.
 
+- angular project settings
+  ```
+  export default defineConfig({
+      component: {
+          supportFile: 'projects/lib-component/cypress/support/component.ts',
+          supportFolder: 'projects/lib-component/cypress/support',
+          indexHtmlFile: 'projects/lib-component/cypress/support/component-index.html',
+      },
+  });
+  ```
+
 - webpack
 
   ```
-  import coverageWebpack from './cypress/coverage.webpack';
+  import coverageWebpack from 'projects/lib-component/cypress/coverage.webpack';
 
   export default defineConfig({
-    component: {
-        devServer: {
-        webpackConfig: coverageWebpack,
-        },
-    },
+      component: {
+          devServer: {
+          webpackConfig: coverageWebpack,
+          },
+      },
   });
   ```
 
@@ -108,12 +119,12 @@ Edit `cypress.config.ts` in each library project which have cypress tests.
 
   ```
   export default defineConfig({
-    component: {
-        setupNodeEvents(on, config) {
-        require('@cypress/code-coverage/task')(on, config);
-        return config;
-        },
-    },
+      component: {
+          setupNodeEvents(on, config) {
+          require('@cypress/code-coverage/task')(on, config);
+          return config;
+          },
+      },
   });
   ```
 
@@ -121,17 +132,19 @@ Edit `cypress.config.ts` in each library project which have cypress tests.
 
   ```
   export default defineConfig({
-  component: {
-      devServer: {
-          options: {
-              projectConfig: {
-              root: 'projects/lib-component',
-              sourceRoot: 'projects/lib-component/src',
-              buildOptions: {
-                  outputPath: 'dist/lib-component',
-                  main: 'src/entrypoint-cypress.ts',
-                  tsConfig: 'tsconfig.lib.json',
-              },
+      component: {
+          devServer: {
+              options: {
+                  projectConfig: {
+                      root: 'projects/lib-component',
+                      sourceRoot: 'projects/lib-component/src',
+                      buildOptions: {
+                          outputPath: 'dist/lib-component',
+                          main: 'src/entrypoint-cypress.ts',
+                          tsConfig: 'projects/lib-component/tsconfig.lib.json',
+                      },
+                  },
+              },          
           },
       },
   });
@@ -158,7 +171,9 @@ This does an in-place replacement of the code. Do not release this code! If you 
 Create a command to run tests in `package.json`
 
 ```
-"cypress-lib-run": "npm run build-lib-base && npm run instrument-lib-base && npx cypress run --component --project projects/lib-component --env coverage=true"
+"cypress-lib-run": "npm run build-lib-base && npm run instrument-lib-base && npx cypress run --component -C projects/lib-component/cypress.config.ts --env coverage=true"
 ```
+
+> Do not use --projects Parameter to use Cypress in Projects with Coverage. There are some Path Issues when WebPack tries to compile scss. Use the parameter -C and define the paths in cypress.config.ts correctly.
 
 The first step builds the base library. The second step creates the instrumentation code and the third step runs the Cypress tests.

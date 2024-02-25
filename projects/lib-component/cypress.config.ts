@@ -1,5 +1,5 @@
 import { defineConfig } from 'cypress';
-import coverageWebpack from './cypress/coverage.webpack';
+import coverageWebpack from 'projects/lib-component/cypress/coverage.webpack';
 
 export default defineConfig({
   e2e: {
@@ -8,6 +8,10 @@ export default defineConfig({
   },
 
   component: {
+    supportFile: 'projects/lib-component/cypress/support/component.ts',
+    supportFolder: 'projects/lib-component/cypress/support',
+    indexHtmlFile:
+      'projects/lib-component/cypress/support/component-index.html',
     devServer: {
       framework: 'angular',
       bundler: 'webpack',
@@ -19,12 +23,12 @@ export default defineConfig({
           buildOptions: {
             outputPath: 'dist/lib-component',
             main: 'src/entrypoint-cypress.ts',
-            tsConfig: 'tsconfig.lib.json',
+            tsConfig: 'projects/lib-component/tsconfig.lib.json',
           },
         },
       },
     },
-    specPattern: '**/*.cy.ts',
+    specPattern: 'projects/lib-component/src/**/*.cy.ts',
     setupNodeEvents(on, config) {
       require('@cypress/code-coverage/task')(on, config);
       return config;
